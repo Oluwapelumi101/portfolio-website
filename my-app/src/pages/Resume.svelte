@@ -243,12 +243,11 @@
 
 
 <div class="resume">
-
     <div class="resume_container">
         <div class="top_row">
            <h2>{resume.firstName} {resume.lastName}</h2>
             <div class="buttons">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://docs.google.com/document/d/e/2PACX-1vQESDlhRJNXnZXSngJEDj6oNpJ39YgE9MKVSR5xiisUSO7LNYHLzJeBaV9U-Jt7Nla9vnclVAwY2a0b/pub" target="_blank" rel="noopener noreferrer">
                 <small>
                     <i class="fas fa-download"></i> <span>Download </span>
                 </small>
@@ -256,14 +255,13 @@
             </div>
         </div>
 
-        <!-- <div>
-          <p>{resume.description}</p>
-        </div> -->
+        <div class="divider">
+          <p class="subheading">{resume.title}</p>
+          <span></span>
+        </div>
 
-        <p class="subheading">{resume.title}</p>
-
-        <div class="summary">
-          <p>{resume.intro}</p>
+        <div class="summary" >
+          <p style="white-space: pre-line;">{resume.intro}</p>
         </div>
 
         <div class="divider">
@@ -299,10 +297,13 @@
                 </span>
               </p>
               <article class="description">
+                <!-- {experience.achievements ? experience.achievements: 'null'} -->
+                {#each experience.achievements as achievement }
                   <p>
                     <span>&#8594;</span>
-                    {experience.achievements ? experience.achievements: 'null'}
+                    {achievement}
                   </p>
+                {/each}
               </article>
               </section>
             {/each}
@@ -339,7 +340,13 @@
               <p class="title">
                 {development.title} <br />
                 <small>{development.organisation}</small> <br />
-                <span>{development.date}</span>
+                <span>{development.date} </span>
+                <span> <a href="{development.verification}" style="color: #777778;">
+                  Show credential
+                  <li-icon aria-hidden="true" type="link-external" size="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"                   data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path d="M15 1v6h-2V4.41L7.41 10 6 8.59 11.59 3H9V1zm-4 10a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h2V3H5a3 3 0 00-3 3v5a3 3 0 003 3h5a3 3 0 003-3V9h-2z"></path>
+                    </svg></li-icon>
+                </a> </span> 
               </p>
              {/each}
           </section>

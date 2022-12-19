@@ -1,57 +1,36 @@
 [
   {
     "id": " id",
-    "title": "title",
-    "description": "description",
-    "github": "github",
+    "title": "Zeez.tech",
+    "description": "My Portfolio Website",
+    "github": "https://github.com/Oluwapelumi101/portfolio-website.git",
     "github2": "string",
     "live": true,
-    "stack": "string",
+    "stack": "Svelte + SCSS + Javascript",
     "isPrivate": false,
     "isLive": true
   },
   {
     "id": " id",
-    "title": "st",
-    "description": "string",
-    "github": "string",
+    "title": "Ads App",
+    "description": "A Django based Web app where user can post add (Similiar to Craigslist",
+    "github": "https://github.com/Oluwapelumi101/Ads-App.git",
     "github2": "string",
-    "live": "string",
-    "stack": "string",
+    "live": false,
+    "stack": "Python + Django + Bootstrap",
     "isPrivate": "boolean",
     "isLive": "boolean"
   },
   {
     "id": " id",
-    "title": "st",
-    "description": "string",
-    "github": "string",
+    "title": "MIT_6.0001",
+    "description": "Programming assignments from the first year MIT course 'Introduction to Programming'. ",
+    "github": "https://github.com/Oluwapelumi101/MIT_6.0001-Introduction_to_programming_.git",
     "github2": "string",
-    "live": "string",
-    "stack": "string",
+    "live": false,
+    "stack": "Python",
     "isPrivate": "boolean",
     "isLive": "boolean"
-  },
-  {
-    "id": " id",
-    "title": "title",
-    "description": "description",
-    "github": "github",
-    "github2": "string",
-    "live": true,
-    "stack": "string",
-    "isPrivate": false,
-    "isLive": true
-  },
-  {
-    "id": " id",
-    "title": "title",
-    "description": "description",
-    "github": "github",
-    "github2": "string",
-    "live": true,
-    "stack": "string",
-    "isPrivate": false,
-    "isLive": true
   }
 ]
+

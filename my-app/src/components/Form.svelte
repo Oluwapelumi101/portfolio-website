@@ -128,7 +128,7 @@
         </div>
 
         <div class="form_section">
-            <button type="submit"><i class="fas fa-ellipsis-h"></i>}</button>
+            <button type="submit"> Send Message</button>
         </div>
     </form> 
  </div>

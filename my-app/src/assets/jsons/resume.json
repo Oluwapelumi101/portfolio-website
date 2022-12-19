@@ -5,7 +5,7 @@
 
   "title": "Software Developer",
 
-  "intro": "Welcome to my portfolio! As a junior developer, I am passionate about creating innovative and user-friendly solutions. I am always looking to expand my skills and grow as a professional. On this website, you can find a selection of my recent projects and learn more about my experience and qualifications. Thank you for visiting. Feel free to contact me with any questions or opportunities. I am always open to discussing new projects and challenges.",
+  "intro": "Welcome to my portfolio! As a junior developer, I am passionate about creating innovative and user-friendly solutions. I am always looking to expand my skills and grow as a professional.\n \n On this website, you can find a selection of my recent projects and learn more about my experience and qualifications.\n \n  Thank you for visiting. Feel free to contact me with any questions or opportunities. I am always open to discussing new projects and challenges.",
 
   "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore excepturi distinctio illum vel, perferendis accusamus consectetur nesciunt! Corporis a eius quia cupiditate sint recusandae perspiciatis neque aspernatur quod rem. \n Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quam ea modi, sunt repudiandae necessitatibus tempore, nostrum laudantium debitis doloremque quia suscipit nam corporis! Qui dicta voluptatem rem necessitatibus quaerat?.\n ut explicabo, voluptate iste provident animi excepturi architecto! Maiores minus modi molestiae ducimus, numquam commodi at sunt tempora perferendis omnis aliquam possimus veniam facilis enim aut sequi aperiam magnam deserunt, architecto nesciunt ut eligendi corrupti exercitationem totam. Rem maxime est in voluptatum, ex et sint sunt dolores corporis dolore nemo porro, optio dolor.",
 
@@ -17,12 +17,17 @@
     {
       "title": "Frameworks/Libraries",
       "body": [
-        "Django", "Svelte", "Regex (python)", "C++ Standard Library", "Pandas", "Selenium"
+        "Django",
+        "Svelte",
+        "Regex (python)",
+        "C++ Standard Library",
+        "Pandas",
+        "Selenium"
       ]
     },
     {
       "title": "Storage/Databases",
-      "body": ["PostgresSQL", "AWS S3"]
+      "body": ["SQL (PostgresQL)", "AWS S3"]
     },
     {
       "title": "Tooling/Platforms",
@@ -31,18 +36,31 @@
   ],
   "experience": [
     {
-      "company": "FarmKonnect Nigeira (Intern, Part-time)",
-      "role": "IT Support/Web Management",
-      "startDate": "Feb 2019",
-      "endDate": "Nov 2020",
-      "achievements": null
-    },
-    {
       "company": "FarmKonnect Nigeira",
       "role": "Product Management",
       "startDate": "Feb 2021",
       "endDate": "Sept 2021",
-      "achievements": null
+      "achievements": [
+        "Creating project documentation.",
+        "Overseeing the creation of multiple software programs, including systems for investment management and cooperative management.",
+        "AWS Management",
+        "Crafting user guides for enterprise software",
+        "Implementing systems to enhance organizational structures, such as introducing Zoho CRM.",
+        "Evaluating software and serving as a liaison between developers and the organization.",
+        "Providing technical support to customers."
+      ]
+    },
+    {
+      "company": "FarmKonnect Nigeira (Intern, Part-time)",
+      "role": "IT Support/Web Management",
+      "startDate": "Feb 2019",
+      "endDate": "Nov 2020",
+      "achievements": [
+        "Providing technical assistance to Company staff",
+        "Installing,configuring and updating hardware and software",
+        "Training staff on softwares like MS Office",
+        "Updating Company Website"
+      ]
     }
   ],
   "education": [
@@ -69,12 +87,14 @@
     {
       "title": "Django for Everybody",
       "organisation": "University of Michigan on Coursera",
-      "date": "December 2022"
+      "date": "December 2022",
+      "verification": "https://coursera.org/share/db62356dbb0aecaceae59ff306c638bc"
     },
     {
       "title": "AWS Cloud Technical Essentials",
       "organisation": "Amazon Web Services",
-      "date": "Nov 2022"
+      "date": "Nov 2022",
+      "verification": "https://coursera.org/share/032569836e99ccc2dc8c45e189cef0fa"
     }
   ],
   "languages": [
