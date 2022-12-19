@@ -1,0 +1,96 @@
+{
+  "firstName": "Oluwapelumi",
+
+  "lastName": "Azeez",
+
+  "title": "Software Developer",
+
+  "intro": "Welcome to my portfolio! As a junior developer, I am passionate about creating innovative and user-friendly solutions. I am always looking to expand my skills and grow as a professional. On this website, you can find a selection of my recent projects and learn more about my experience and qualifications. Thank you for visiting. Feel free to contact me with any questions or opportunities. I am always open to discussing new projects and challenges.",
+
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore excepturi distinctio illum vel, perferendis accusamus consectetur nesciunt! Corporis a eius quia cupiditate sint recusandae perspiciatis neque aspernatur quod rem. \n Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quam ea modi, sunt repudiandae necessitatibus tempore, nostrum laudantium debitis doloremque quia suscipit nam corporis! Qui dicta voluptatem rem necessitatibus quaerat?.\n ut explicabo, voluptate iste provident animi excepturi architecto! Maiores minus modi molestiae ducimus, numquam commodi at sunt tempora perferendis omnis aliquam possimus veniam facilis enim aut sequi aperiam magnam deserunt, architecto nesciunt ut eligendi corrupti exercitationem totam. Rem maxime est in voluptatum, ex et sint sunt dolores corporis dolore nemo porro, optio dolor.",
+
+  "skills": [
+    {
+      "title": "Languages",
+      "body": ["Python", "C++", "HTML/CSS", "Javascript"]
+    },
+    {
+      "title": "Frameworks/Libraries",
+      "body": [
+        "Django", "Svelte", "Regex (python)", "C++ Standard Library", "Pandas", "Selenium"
+      ]
+    },
+    {
+      "title": "Storage/Databases",
+      "body": ["PostgresSQL", "AWS S3"]
+    },
+    {
+      "title": "Tooling/Platforms",
+      "body": ["Git", "Docker", "AWS", "VS Code", "IPython", "Jupyter"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "FarmKonnect Nigeira (Intern, Part-time)",
+      "role": "IT Support/Web Management",
+      "startDate": "Feb 2019",
+      "endDate": "Nov 2020",
+      "achievements": null
+    },
+    {
+      "company": "FarmKonnect Nigeira",
+      "role": "Product Management",
+      "startDate": "Feb 2021",
+      "endDate": "Sept 2021",
+      "achievements": null
+    }
+  ],
+  "education": [
+    {
+      "title": "HND in Computer Science at Interlink Polytechnic, Ijubu-jesa, Nigeria",
+      "startDate": "2016",
+      "endDate": "2020",
+      "relevant": [
+        "Introduction to Computing",
+        "Introduction to Programming",
+        "Digital Electronics Systems",
+        "Calculus I & II",
+        "Vector Analysis"
+      ]
+    },
+    {
+      "title": "Corpus Christi Senior High School, Accra Ghana",
+      "startDate": "2016",
+      "endDate": "2020",
+      "relevant": []
+    }
+  ],
+  "development": [
+    {
+      "title": "Django for Everybody",
+      "organisation": "University of Michigan on Coursera",
+      "date": "December 2022"
+    },
+    {
+      "title": "AWS Cloud Technical Essentials",
+      "organisation": "Amazon Web Services",
+      "date": "Nov 2022"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native"
+    },
+    {
+      "name": "German",
+      "level": "Proficient (DSH-2)"
+    },
+    {
+      "name": "Yoruba",
+      "level": "Mother Tongue"
+    }
+  ],
+  "hobbies": ["Running", "Music"],
+  "others": ["Aviation Enthusiast", "Armchair Engineer"]
+}
