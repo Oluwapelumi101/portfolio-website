@@ -1,5 +1,5 @@
 <svelte:head>
-  <!-- <link rel='stylesheet' href='/global.scss'> -->
+  <link rel='stylesheet' href='/global.scss'>
   <link rel="preload" href="https://tenor.com/view/loading-loading-forever-bobux-loader-gif-18368917" as="image">
   <style>
     .splash {
@@ -58,7 +58,6 @@
 	.desktopLayout-conditionalMobile{
     display: none;
 }
-
 
 
 
