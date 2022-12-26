@@ -89,9 +89,6 @@
     <div class="main">
       <div class="pages_container">
         <Router {routes} />
-
-        <!-- <p>Route params are: {currentRoute.namedParams} and {currentRoute.queryParams}</p> -->
-  
       </div>
     </div>
   </div>
