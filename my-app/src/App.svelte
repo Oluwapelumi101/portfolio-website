@@ -1,4 +1,26 @@
-
+<svelte:head>
+  <!-- <link rel='stylesheet' href='/global.scss'> -->
+  <link rel="preload" href="https://tenor.com/view/loading-loading-forever-bobux-loader-gif-18368917" as="image">
+  <style>
+    .splash {
+      background-image: url('splash.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      transition: transform 1s ease-in-out;
+      transform: translateY(0);
+    }
+    .splash.hidden {
+      transform: translateY(-100%);
+    }
+  </style>
+</svelte:head>
 
 
 
