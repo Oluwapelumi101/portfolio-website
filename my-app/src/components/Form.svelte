@@ -1,6 +1,6 @@
-<script>
 
-</script>
+
+
 <style lang="scss">
     form {
     display: flex;
@@ -133,3 +133,7 @@
         </div>
     </form> 
  </div>
+
+<!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="scripts/form-submission-handler.js"></script>
+<!-- END -->
