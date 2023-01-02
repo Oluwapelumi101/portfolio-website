@@ -34,12 +34,12 @@
   },
   {
     "id": " id",
-    "title": "Ads App",
-    "description": "A Django based Web app where user can post add (Similiar to Craigslist",
+    "title": "Vacuum Cleaning Robot Simulation",
+    "description": "A program that simulates the movement of a floor cleaning robot in a room with furniture with Visualization created in pygame",
     "github": "hhttps://github.com/Oluwapelumi101/vacuum-cleaning-robot.git",
     "github2": "string",
     "live": false,
-    "stack": "Python + Django + Bootstrap",
+    "stack": "Python + Pygame",
     "isPrivate": "boolean",
     "isLive": "boolean"
   }
