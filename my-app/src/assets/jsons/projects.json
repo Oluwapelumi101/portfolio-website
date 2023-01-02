@@ -24,13 +24,23 @@
   {
     "id": " id",
     "title": "MIT_6.0001",
-    "description": "Programming assignments from the first year MIT course 'Introduction to Programming'. ",
+    "description": "10 Programming assignments from the first year MIT course 'Introduction to Programming'. ",
     "github": "https://github.com/Oluwapelumi101/MIT_6.0001-Introduction_to_programming_.git",
     "github2": "string",
     "live": false,
     "stack": "Python",
     "isPrivate": "boolean",
     "isLive": "boolean"
+  },
+  {
+    "id": " id",
+    "title": "Ads App",
+    "description": "A Django based Web app where user can post add (Similiar to Craigslist",
+    "github": "hhttps://github.com/Oluwapelumi101/vacuum-cleaning-robot.git",
+    "github2": "string",
+    "live": false,
+    "stack": "Python + Django + Bootstrap",
+    "isPrivate": "boolean",
+    "isLive": "boolean"
   }
 ]
-

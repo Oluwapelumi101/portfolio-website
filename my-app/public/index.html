@@ -1,238 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-	<title>Zeez-Tech</title>
+    <title>Zeez-Tech</title>
 
-	<link rel='icon' type='image/png' href='/favicon.png'>
-	<link rel='stylesheet' href='/build/bundle.css'>
-	<link rel='stylesheet' href='/global.scss'>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/build/bundle.css" />
+    <link rel="stylesheet" href="/global.scss" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      rel="stylesheet"
+    />
 
-	
-	<script defer src='/build/bundle.js'></script>
-</head>
+    <script defer src="/build/bundle.js"></script>
+  </head>
 
-<style lang="scss">
-	body {
-		margin: 0;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-}
+  <style lang="scss">
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
 
-	code {
-		font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-			monospace;
-}
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+    }
 
+    /*===== IMPORTING FONTS =====*/
 
-/*===== IMPORTING FONTS =====*/
+    @font-face {
+      font-family: "air-regular";
+      src: url("./assets/fonts/AirbnbCereal-Book.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }
 
-@font-face {
-  font-family: 'air-regular';
-  src: url('./assets/fonts/AirbnbCereal-Book.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+    @font-face {
+      font-family: "air-semibold";
+      src: url("./assets/fonts/AirbnbCereal-Medium.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }
 
-@font-face {
-  font-family: 'air-semibold';
-  src: url('./assets/fonts/AirbnbCereal-Medium.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+    @font-face {
+      font-family: "air-light";
+      src: url("./assets/fonts/AirbnbCereal-Light.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }
 
-@font-face {
-  font-family: 'air-light';
-  src: url('./assets/fonts/AirbnbCereal-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+    @font-face {
+      font-family: "air-bold";
+      src: url("./assets/fonts/AirbnbCereal-Bold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }
 
-@font-face {
-  font-family: 'air-bold';
-  src: url('./assets/fonts/AirbnbCereal-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+    @font-face {
+      font-family: "air-extrabold";
+      src: url("./assets/fonts/AirbnbCereal-ExtraBold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }
 
-@font-face {
-  font-family: 'air-extrabold';
-  src: url('./assets/fonts/AirbnbCereal-ExtraBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+    @font-face {
+      font-family: "air-black";
+      src: url("./assets/fonts/AirbnbCereal-Black.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }
 
-@font-face {
-  font-family: 'air-black';
-  src: url('./assets/fonts/AirbnbCereal-Black.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "air-regular";
+      background: #101011;
+      color: #fff;
+    }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "air-regular";
-  background: #101011;
-  color: #fff;
-}
+    #root {
+      height: 100%;
+    }
 
-#root {
-  height: 100%;
-}
+    .App {
+      height: 100%;
+      overflow: hidden;
+    }
 
-.App {
-  height: 100%;
-  overflow: hidden;
-}
+    .app-container {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
 
-.app-container {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
+    .app-container .fixed {
+      height: 100vh;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
 
-.app-container .fixed {
-  height: 100vh;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-}
+    .app-container .main {
+      height: 100%;
+      width: 50%;
+      overflow-y: auto;
+    }
 
-.app-container .main {
-  height: 100%;
-  width: 50%;
-  overflow-y: auto;
-}
+    .main::-webkit-scrollbar {
+      width: 7px;
+    }
 
-.main::-webkit-scrollbar {
-  width: 7px;
-}
+    .main::-webkit-scrollbar-track {
+      background: #101011;
+    }
 
-.main::-webkit-scrollbar-track {
-  background: #101011;
-}
+    .main::-webkit-scrollbar-thumb {
+      background: #101011;
+    }
 
-.main::-webkit-scrollbar-thumb {
-  background: #101011;
-}
+    .main::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
 
-.main::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+    .app-container .main .pages_container {
+      padding: 8% 15% 8% 5%;
+      flex-grow: 1;
+      /* height: 100%; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
-.app-container .main .pages_container {
-  padding: 8% 15% 8% 5%;
-  flex-grow: 1;
-  /* height: 100%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+    p {
+      font-size: var(--normal-font);
+    }
 
-p {
-  font-size: var(--normal-font);
-}
+    @media (min-width: 1400px) {
+      .App {
+        max-width: 1600px;
+        margin: auto;
+      }
+    }
 
-@media (min-width: 1400px) {
-  .App {
-    max-width: 1600px;
-    margin: auto;
-  }
-}
+    body {
+      --h1-font: 2.5rem;
+      --h2-font: 36px;
+      --h3-font: 22px;
+      --project-font: 19px;
+      --semi-font: 16px;
+      --normal-font: 14px;
+      --small-font: 13px;
+      --xsmall-font: 12px;
+    }
 
-body {
-  --h1-font: 2.5rem;
-  --h2-font: 36px;
-  --h3-font: 22px;
-  --project-font: 19px;
-  --semi-font: 16px;
-  --normal-font: 14px;
-  --small-font: 13px;
-  --xsmall-font: 12px;
-}
+    @media (min-width: 1440px) {
+      body {
+        --h1-font: 3.2rem;
+        --h2-font: 42px;
+        --h3-font: 28px;
+        --project-font: 25px;
+        --semi-font: 22px;
+        --normal-font: 18px;
+        --small-font: 17px;
+        --xsmall-font: 16px;
+      }
+    }
 
-@media (min-width: 1440px) {
-  body {
-    --h1-font: 3.2rem;
-    --h2-font: 42px;
-    --h3-font: 28px;
-    --project-font: 25px;
-    --semi-font: 22px;
-    --normal-font: 18px;
-    --small-font: 17px;
-    --xsmall-font: 16px;
-  }
-}
+    /*===== RESPONSIVE STYLING =====*/
 
-/*===== RESPONSIVE STYLING =====*/
+    .mobile_container {
+      display: none;
+    }
 
-.mobile_container {
-  display: none;
-}
+    @media (min-width: 994px) and (max-width: 1200px) {
+      .App .app-container .fixed .base_container {
+        padding-left: 8%;
+      }
 
-@media (min-width: 994px) and (max-width: 1200px) {
-  .App .app-container .fixed .base_container {
-    padding-left: 8%;
-  }
+      .App .app-container .main .pages_container {
+        padding-right: 8%;
+      }
 
-  .App .app-container .main .pages_container {
-    padding-right: 8%;
-  }
+      h1 {
+        font-size: 34px !important;
+      }
+    }
 
-  h1 {
-    font-size: 34px !important;
-  }
-}
+    @media (max-width: 993px) {
+      .App {
+        overflow: auto;
+      }
 
-@media (max-width: 993px) {
-  .App {
-    overflow: auto;
-  }
+      .App .app-container {
+        display: none;
+      }
 
-  .App .app-container {
-    display: none;
-  }
+      .mobile_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5%;
+      }
 
-  .mobile_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 5%;
-  }
+      .mobile_container.set_height {
+        height: 90%;
+        height: -moz-available;
+        height: -webkit-fill-available;
+      }
+    }
 
-  .mobile_container.set_height {
-    height: 90%;
-    height: -moz-available;
-    height: -webkit-fill-available;
-  }
-}
+    @media (prefers-reduced-motion: no-preference) {
+      .loader {
+        animation: slide infinite 1.5s linear;
+      }
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .loader {
-    animation: slide infinite 1.5s linear;
-  }
-}
+    @keyframes slide {
+      from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+      }
 
-@keyframes slide {
-  from {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 0;
-  }
-
-  to {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -o-transform: scale(2);
-    -ms-transform: scale(2);
-    transform: scale(2);
-    transform: scale(2);
-    opacity: 1;
-  }
-}
-
-
-</style>
-<body >
-
-  
-</body>
+      to {
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -o-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
+        transform: scale(2);
+        opacity: 1;
+      }
+    }
+  </style>
+  <body></body>
 </html>
