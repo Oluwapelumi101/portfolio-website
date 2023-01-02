@@ -36,7 +36,7 @@
     "id": " id",
     "title": "Vacuum eaning Robot Simulation",
     "description": "A program that simulates the movement of a floor cleaning robot in a room with furniture with pygame Visualization",
-    "github": "hhttps://github.com/Oluwapelumi101/vacuum-cleaning-robot.git",
+    "github": "https://github.com/Oluwapelumi101/vacuum-cleaning-robot.git",
     "github2": "string",
     "live": false,
     "stack": "Python + Pygame",
