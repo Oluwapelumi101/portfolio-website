@@ -57,7 +57,6 @@
 
 </style>
 <div class="contact">
-    <!-- <Helmet title="Contact Me" name="Contact Michael Olatunji" content="Reach out to Michael Olatunji" /> -->
     <Form />
 
     <div class="go_button_container">

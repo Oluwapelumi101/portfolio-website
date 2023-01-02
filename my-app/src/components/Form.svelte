@@ -104,26 +104,27 @@
 
 
 <div>
-    <form name="contact" method="post" action="#">
+    <form class="gform" name="contact" method="POST" data-email="azeezpelumi101@gmail.com" 
+    action="https://script.google.com/macros/s/AKfycby5Jh1WYfI65olrKWShEZh8aJf9mDSlHm0rQFPzeidN43Rg47c1Z3AmpifdHXDmNz8-Ew/exec">
         <!-- <input type="hidden" name="form-name" value="contact" /> -->
         <div class="form_section">
-        <label>
-            <span>Your Name*</span>
-            <input type="text" name="name" placeholder="Enter your name" required />
-        </label>
+            <label>
+                <span>Your Name*</span>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            </label>
         </div>
 
         <div class="form_section">
         <label>
             <span>Your Email*</span>
-            <input required type="email" name="email" placeholder="Enter your email" />
+            <input required type="email" id="email" name="email" placeholder="Enter your email" />
         </label>
         </div>
 
         <div class="form_section">
         <label>
             <span>Your Message*</span>
-            <textarea required name="message" rows={10} minLength={10}></textarea>
+            <textarea required id="message" name="message" rows={10} minLength={10}></textarea>
         </label>
         </div>
 
