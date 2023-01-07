@@ -191,7 +191,7 @@
 
         <div class="logo_container pt-4">
             <a href="/" class="img_link">
-                <img class="w-25" src="/assets/svgs/my_logo.svg" alt="My logo" /> 
+                <img class="w-25" src="/assets/imgs/logo_small.png" alt="My logo" /> 
             </a>
         </div>
 
