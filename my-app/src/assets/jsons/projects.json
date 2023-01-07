@@ -5,7 +5,7 @@
     "description": "My Portfolio Website",
     "github": "https://github.com/Oluwapelumi101/portfolio-website.git",
     "github2": "string",
-    "live": true,
+    "live": "https://portfolio-website-l7fe.vercel.app/",
     "stack": "Svelte + SCSS + Javascript",
     "isPrivate": false,
     "isLive": true
