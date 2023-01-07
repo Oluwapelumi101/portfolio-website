@@ -16,10 +16,10 @@
     "description": "A Django based Web app where user can post add (Similiar to Craigslist",
     "github": "https://github.com/Oluwapelumi101/Ads-App.git",
     "github2": "string",
-    "live": false,
+    "live": "194.195.242.154",
     "stack": "Python + Django + Bootstrap",
     "isPrivate": "boolean",
-    "isLive": "boolean"
+    "isLive": true
   },
   {
     "id": " id",

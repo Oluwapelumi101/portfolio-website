@@ -135,5 +135,5 @@
  </div>
 
 <!-- Submit the Form to Google Using "AJAX" -->
-  <script data-cfasync="false" src="scripts/form-submission-handler.js"></script>
+<script data-cfasync="false" src="scripts/form-submission-handler.js"></script>
 <!-- END -->
