@@ -13,13 +13,13 @@
   {
     "id": " id",
     "title": "Ads App",
-    "description": "A Django based Web app where user can post add (Similiar to Craigslist",
+    "description": "Dockerized CI/CD deployment of a Django Ads posting app (similiar to Ebay Klien-Anzeige)",
     "github": "https://github.com/Oluwapelumi101/Ads-App.git",
     "github2": "string",
-    "live": "http://194.195.242.154",
-    "stack": "Python + Django + Bootstrap",
+    "live": "http://139.177.179.43",
+    "stack": "Linode + Docker + Github actions + Postgres + Python + Django + Bootstrap",
     "isPrivate": "boolean",
-    "isLive2": "194.195.242.154"
+    "isLive2": "139.177.179.43"
   },
   {
     "id": " id",
