@@ -6,7 +6,7 @@
     "github": "https://github.com/Oluwapelumi101/portfolio-website.git",
     "github2": "string",
     "live": "https://portfolio-website-l7fe.vercel.app/",
-    "stack": "Svelte + SCSS + Javascript",
+    "stack": "Svelte + SCSS + Javascript + JSON",
     "isPrivate": false,
     "isLive": true
   },
