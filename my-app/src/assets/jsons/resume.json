@@ -30,7 +30,7 @@
     },
     {
       "title": "Tooling/Platforms",
-      "body": ["Git", "Docker", "AWS", "VS Code", "IPython", "Jupyter"]
+      "body": ["Linux", "Git", "Docker", "Nginx", "AWS", "Linode", "VS Code", "Jupyter"]
     }
   ],
   "experience": [

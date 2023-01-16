@@ -46,7 +46,7 @@
 
 
 <div class="footer">
-    <img class=" rounded-circle img-fluid" style="width: 4rem; height: 4rem;" src="/assets/imgs/me.jpeg" alt="my-avatar" />
+    <img class=" rounded-circle img-fluid" style="width: 4rem; height: 4rem;" src="/assets/imgs/azeez.jpeg" alt="my-avatar" />
 
     <div class="social">
         <a href="https://github.com/Oluwapelumi101/" target="_blank" rel="noopener noreferrer">
@@ -54,7 +54,7 @@
         <img src="/assets/svgs/arrow.svg" alt="pointer" />
         </a>
 
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/the_prince_101" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-twitter"></i> Twitter <img src="/assets/svgs/arrow.svg" alt="pointer" />
         </a>
 

@@ -243,7 +243,7 @@
                         <a href="https://github.com/Oluwapelumi101/">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/the_prince_101">
                             <i class="fab fa-twitter"></i>
                         </a>
                         <a href="https://linkedin.com/in/zeez-tech">
