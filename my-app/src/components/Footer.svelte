@@ -46,7 +46,7 @@
 
 
 <div class="footer">
-    <img class=" rounded-circle img-fluid" style="width: 4rem; height: 4rem;" src="/assets/imgs/azeez.jpeg" alt="my-avatar" />
+    <img class=" rounded-circle img-fluid" style="width: 4rem; height: 4rem;" src="/assets/imgs/azeez.jpg" alt="my-avatar" />
 
     <div class="social">
         <a href="https://github.com/Oluwapelumi101/" target="_blank" rel="noopener noreferrer">
