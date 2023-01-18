@@ -42,5 +42,16 @@
     "stack": "Python + Pygame",
     "isPrivate": "boolean",
     "isLive": "boolean"
+  },
+  {
+    "id": " id",
+    "title": "Von Neumann architecture CPU and Assembler",
+    "description": "Implemenrting a 16 Bit CPU and a compatible Assembler ",
+    "github": "https://github.com/Oluwapelumi101/",
+    "github2": "string",
+    "live": false,
+    "stack": "HDL + NAND2TETRIS Simulators",
+    "isPrivate": "boolean",
+    "isLive": "boolean"
   }
 ]
