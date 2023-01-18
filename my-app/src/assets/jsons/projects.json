@@ -50,7 +50,7 @@
     "github": "https://github.com/Oluwapelumi101/",
     "github2": "string",
     "live": false,
-    "stack": "HDL + NAND2TETRIS Simulators",
+    "stack": "HDL + Nand2Tetris Simulators",
     "isPrivate": "boolean",
     "isLive": "boolean"
   }
