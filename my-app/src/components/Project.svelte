@@ -21,8 +21,7 @@
 .box {
   display: flex;
   flex-direction: column;
-  padding: 10%;
-  /* height: 80%; */
+  padding: 3%;
   flex-grow: 1;
   justify-content: space-between;
   cursor: default;
@@ -34,6 +33,7 @@
 
   .project_details p {
     font-size: var(--normal-font);
+    // padding: 1%;
     line-height: 21px;
     color: #777778;
     height: 5rem;
@@ -67,7 +67,7 @@
   }
 
   .box .project_details p {
-    height: 2.5rem;
+    height: 3.95rem;
   }
 }
 
@@ -80,8 +80,10 @@
     <div class="box">
         <div class="project_details">
             <h3> {project.title} </h3>
+
             <p> {project.description} </p>
-            <small class="py-3"> {project.stack} </small>
+
+            <small class=""> {project.stack} </small>
         </div>
 
         <div class="project_links"> 

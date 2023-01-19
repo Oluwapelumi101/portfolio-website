@@ -54,9 +54,9 @@
             font-family: 'air-regular';
           }
           
-          .go_button_container button.explore {
-            font-size: 15px;
-          }
+          // .go_button_container button {
+          //   font-size: 15px;
+          // }
           
           .go_button_container button:hover {
             border: 1px solid #A6A6A7;
