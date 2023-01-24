@@ -17,6 +17,7 @@
     "github": "https://github.com/Oluwapelumi101/Ads-App.git",
     "github2": "string",
     "live": "http://139.177.179.43",
+    "demo": false,
     "stack": "Linode + Docker + Github actions + Postgres + Python + Django",
     "isPrivate": "boolean",
     "isLive2": "139.177.179.43"
@@ -28,6 +29,7 @@
     "github": "https://github.com/Oluwapelumi101/MIT_6.0001-Introduction_to_programming_.git",
     "github2": "string",
     "live": false,
+    "demo": false,
     "stack": "Python",
     "isPrivate": "boolean",
     "isLive": "boolean"
@@ -39,6 +41,7 @@
     "github": "https://github.com/Oluwapelumi101/vacuum-cleaning-robot.git",
     "github2": "string",
     "live": false,
+    "demo": false,
     "stack": "Python + Pygame",
     "isPrivate": "boolean",
     "isLive": "boolean"
@@ -50,6 +53,7 @@
     "github": "https://github.com/Oluwapelumi101/Nand2Tetris.git",
     "github2": "string",
     "live": false,
+    "demo": "https://youtu.be/xPFlHClMEOA",
     "stack": "HDL + Nand2Tetris Simulators + Python",
     "isPrivate": "boolean",
     "isLive": "boolean"

@@ -106,6 +106,14 @@
                 </small>
                 {/if}
             </span>
+
+            {#if project.demo != false}
+            <small>
+                <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                    <i class="far fa-eye"></i> demo
+                </a>
+            </small>
+            {/if}
     </div>
 
 </div>
