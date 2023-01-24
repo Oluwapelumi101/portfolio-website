@@ -247,7 +247,7 @@
         <div class="top_row">
            <h2>{resume.firstName} {resume.lastName}</h2>
             <div class="buttons">
-                <a href="https://docs.google.com/document/d/e/2PACX-1vQESDlhRJNXnZXSngJEDj6oNpJ39YgE9MKVSR5xiisUSO7LNYHLzJeBaV9U-Jt7Nla9vnclVAwY2a0b/pub" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1KXgWKv6lbwzpKNbHAwFYHGFTG1noXYuF/view?usp=share_link" target="_blank" rel="noopener noreferrer">
                 <small>
                     <i class="fas fa-download"></i> <span>Download </span>
                 </small>
