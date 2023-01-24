@@ -130,7 +130,7 @@
         <div class="hero">
             <div class="intro_box">
                 <div class="my-pic">
-                    <img class=" rounded-circle " style="width: 192px; height: 200px;" src="/assets/imgs/azeez.jpg" alt="my-avatar" />
+                    <img class=" rounded-circle " style="width: 192px; height: 246px;" src="/assets/imgs/azeez.jpg" alt="my-avatar" />
                 </div>
 
                 <h1>
