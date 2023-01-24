@@ -16,13 +16,7 @@
     },
     {
       "title": "Frameworks/Libraries",
-      "body": [
-        "Django",
-        "Svelte",
-        "Regex (python)",
-        "Pandas",
-        "Selenium"
-      ]
+      "body": ["Django", "Svelte", "Regex (python)", "Pandas", "Selenium"]
     },
     {
       "title": "Storage/Databases",
@@ -30,7 +24,16 @@
     },
     {
       "title": "Tooling/Platforms",
-      "body": ["Linux", "Git", "Docker", "Nginx", "AWS", "Linode", "VS Code", "Jupyter"]
+      "body": [
+        "Linux",
+        "Git",
+        "Docker",
+        "Nginx",
+        "AWS",
+        "Linode",
+        "VS Code",
+        "Jupyter"
+      ]
     }
   ],
   "experience": [
@@ -94,6 +97,12 @@
       "organisation": "Amazon Web Services",
       "date": "Nov 2022",
       "verification": "https://coursera.org/share/032569836e99ccc2dc8c45e189cef0fa"
+    },
+    {
+      "title": "Build a Modern Computer from First Principles: From Nand to Tetri",
+      "organisation": "The Hebrew University of Jerusalem",
+      "date": "Jan 2023",
+      "verification": "https://coursera.org/share/5ebe6e54a48f69b3b18f27960ffe37a1"
     }
   ],
   "languages": [
