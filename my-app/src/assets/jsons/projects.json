@@ -41,7 +41,7 @@
     "github": "https://github.com/Oluwapelumi101/vacuum-cleaning-robot.git",
     "github2": "string",
     "live": false,
-    "demo": false,
+    "demo": "https://youtu.be/GzsG2pQC7LM",
     "stack": "Python + Pygame",
     "isPrivate": "boolean",
     "isLive": "boolean"
